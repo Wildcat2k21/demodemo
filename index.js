@@ -26,6 +26,11 @@ function authCookie(req, res, next) {
     }
 }
 
+//redirect
+app.get('/', (req, res) => {
+    res.redirect('/pages/videos.html');
+});
+
 // Маршрут для авторизации
 router.post('/login', (req, res) => {
     const { login, password } = req.body;
