@@ -1,0 +1,118 @@
+* {
+    font-family: Arial;
+}
+
+header > span {
+    color: #686868;
+}
+
+header, .wrapper{
+    display: flex;
+    background-color: #e8e8e8;
+}
+
+main{
+    margin-top: 20px;
+    min-height: 600px;
+    background-color: #481545;
+}
+
+footer{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+button{
+    cursor: pointer;
+    border: none;
+}
+
+audio {
+    background-color: #ff00ef;
+}
+
+.auth-wrapper{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 250px;
+}
+
+h4{
+    color: #fff;
+}
+
+.music-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px 10px 20px;
+    color: #fff;
+}
+
+.image-preview{
+    width: 100px;
+}
+
+.video-preview{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+content{
+    width: 600px;
+}
+
+.auth-side{
+    width: 100%;
+}
+
+.cstm-btn, .auth-btn, .auth-side{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cstm-btn{
+    height: 50px;
+    width: 110px;
+    margin-left: 20px;
+}
+
+.auth-btn{
+    margin-left: 0;
+}
+
+.cat-icon, .user-icon{
+    width: 25px;
+    height: 25px;
+}
+
+.auth-btn{
+    width: 100px;
+}
+
+.user-icon{
+    border-radius: 50px;
+}
+
+.wrapper{
+    padding: 25px;
+    width: 100%;
+}
+
+.pages-btn{
+    width: 150px;
+    height: 100%;
+    border: none;
+}

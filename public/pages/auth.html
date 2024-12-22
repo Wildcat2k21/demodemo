@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Пример сайта для защиты</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="../src/styles/index.css">
+    </head>
+    <body>
+        <content>
+            <header>
+                <div class="wrapper">
+                    <button class="cstm-btn music-btn" data-src="/pages/music.html">
+                        <img class="cat-icon" src="../src/img/music.png" alt="auth"/>
+                        <span>Музыка</span>
+                    </button>
+                    <button class="cstm-btn image-btn" data-src="/pages/images.html">
+                        <img class="cat-icon" src="../src/img/img.png" alt="auth"/>
+                        <span>Картинки</span>
+                    </button>
+                    <button class="cstm-btn video-btn" data-src="/pages/videos.html">
+                        <img class="cat-icon" src="../src/img/video.png" alt="auth"/>
+                        <span>Видео</span>
+                    </button>
+                </div>
+                <div class="auth-side">
+                    <button class="cstm-btn auth-btn" data-src="/pages/auth.html">
+                        <img class="user-icon" src="../src/img/user-icon.png" alt="auth"/>
+                        <span>Войти</span>
+                    </button>
+                </div>
+            </header>
+            <main>
+                <div class="auth-wrapper">
+                    <h4>Авторизируйтесь для доступа к эксклюзивному контенту</h4>
+                    <input id="login" type="text" placeholder="Введите Логин"/>
+                    <input id="password" type="password" placeholder="Введите пароль"/>
+                    <button class="cstm-btn auth-btn" id="auth">Войти</button>
+                </div>
+            </main>
+
+            <footer>
+                <span>Мои соц-сети: <a target="_blank" href="https://vk.com/id506279907">Вконтакте</a></span>
+                <span>Мои Телеграм: <a target="_blank" href="https://t.me/albert_zero2">Вконтакте</a></span>
+            </footer>
+        </content>
+        <script src="../src/scripts/music.js" type="text/javascript"></script>
+    </body>
+</html>
